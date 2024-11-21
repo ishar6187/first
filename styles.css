@@ -1,0 +1,67 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    font-style: var(10px);
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: red;
+    padding: 70px 20;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+/* Main content styles */
+main {
+    padding: 20px 0;
+    width: 1600px;
+    height: 1000px;
+    background-position: center; 
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;;
+}
+#photo{
+    width: 100%;
+    height: 100%;
+    background-image: url(./pexels-zion-4526481.jpg);
+    background-position: center; 
+    background-size: contain;
+}
+
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    font-size: 0.9em;
+}
